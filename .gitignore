@@ -1,0 +1,9 @@
+# 排除 ONNX 模型大文件
+*.onnx
+*.onnx.data
+# 排除分散权重文件
+onnx_MatMul_*
+onnx::*
+
+outputs/
+Qwen3-1.7B/
